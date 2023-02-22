@@ -1,6 +1,6 @@
 {
   "short_name": "react-chrome-extension-template-side-panel",
-  "name": "React Chrome Extension Template: Side Panel",
+  "name": "React Chrome Extension: Side Panel",
   "version": "0.2.0",
   "manifest_version": 3,
   "background": {
@@ -8,11 +8,21 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "css": ["dist/index.4eeece91.css"],
-      "js": ["dist/index.6099912e.js"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "dist/index.4eeece91.css"
+      ],
+      "js": [
+        "dist/index.6099912e.js"
+      ]
     }
   ],
-  "permissions": ["storage", "scripting", "tabs"],
+  "permissions": [
+    "storage",
+    "scripting",
+    "tabs"
+  ],
   "icons": {}
 }

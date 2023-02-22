@@ -6,18 +6,18 @@ on:
       - master
 
 jobs:
-  # When a new commit is pushed to master branch, a demo site will be build and deployed 
+  # When a new commit is pushed to master branch, a demo site will be build and deployed
   deploy-demo-page:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      
+
       - name: Build Demo Page
         run: |
           yarn install --frozen-lockfile
-          yarn build -- --public-url /react-chrome-extension-template-side-panel/
-      
+          yarn build -- --public-url /react-chrome-extension-side-panel/
+
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
