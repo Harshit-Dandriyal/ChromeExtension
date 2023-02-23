@@ -22,7 +22,7 @@ export default function Panel({ onWidthChange, initialEnabled }: { onWidthChange
   }
 
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row font-sans">
       <div
         style={{
           width: sidePanelWidth - 5,
@@ -50,7 +50,7 @@ export default function Panel({ onWidthChange, initialEnabled }: { onWidthChange
             </div>
 
             <div className="flex flex-col justify-center items-center mt-7">
-              <img className="rounded-full w-40 h-40" src="https://s3-alpha-sig.figma.com/img/eaf7/1f28/617a2add318b2cf989cf12f12aee3fcd?Expires=1678060800&Signature=jpuFIjqba~RlvjOMFC00C0HR2NHZzE~keymTzMk9~OZDQwYqQ-I07Q-sv~ynKD11XpGjWr1cFLO0nPv7R2rUZ~OWG~uRf6DWTtG8sc209MyOD3feeh9xTccY2J8tLgoHWCQrOgZCVcq0-7MBY8D49QDz4fgAPDhuBHcMwYfXdvQwSAFqEDZEjotxs3-iN5icqvj0QqCjWsS3ywvftVtvJgql7SY396-3C8LxNh3wnNunFmjox9Cnayjbf7P-99jfBzixxuGLIXhEtmwbhF2ESgyoWcHl7f0M-VgYiKi52vk35NqMGMUFoq7SxOo1OVlmU8ZEZpFb09SttCV9mXHpjA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Rounded avatar" />
+              <img className="rounded-full w-40 h-40 object-right object-cover" src="https://s3-alpha-sig.figma.com/img/eaf7/1f28/617a2add318b2cf989cf12f12aee3fcd?Expires=1678060800&Signature=jpuFIjqba~RlvjOMFC00C0HR2NHZzE~keymTzMk9~OZDQwYqQ-I07Q-sv~ynKD11XpGjWr1cFLO0nPv7R2rUZ~OWG~uRf6DWTtG8sc209MyOD3feeh9xTccY2J8tLgoHWCQrOgZCVcq0-7MBY8D49QDz4fgAPDhuBHcMwYfXdvQwSAFqEDZEjotxs3-iN5icqvj0QqCjWsS3ywvftVtvJgql7SY396-3C8LxNh3wnNunFmjox9Cnayjbf7P-99jfBzixxuGLIXhEtmwbhF2ESgyoWcHl7f0M-VgYiKi52vk35NqMGMUFoq7SxOo1OVlmU8ZEZpFb09SttCV9mXHpjA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="Rounded avatar" />
 
               <p className=" text-gray-900 mt-1">Sandra Silva</p>    <div className="flex  mt-1 justify-center items-center">
                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
